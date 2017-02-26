@@ -113,7 +113,10 @@ article aside {
 }
 article aside  h4{
 	color:#000;
-
+	border-left:3px solid #ccc;
+	padding-left: 10px;
+	line-height: 33px;
+	height: 33px;
 }
 article aside  form{
 	width: 100%;
