@@ -2,55 +2,50 @@
 body{
 	padding:0;
 	margin:0;
-	background: #202020;
+	background: #dedede;
 
 }
 h1,h2,h4,h5{
 	padding:0;
 	margin:0;
 }
-.main{
-	width: 90%;
-	margin:0 auto;
-	background: #dedede;
 
-}
 /*头部*/
-.main header{
+header{
 	width: 99.88%;
 	height: 60px;
 	background: #333333;
 	margin-bottom: 20px;
 	clear: both;
 }
-.main header h1{
+header h1{
 	width: 224px;
 	height: 60px;
 	background: url(images/logo.jpg) no-repeat 50% 46%;
 	text-indent: -9999px;
 	float: left;
 }
-.main header ul{
+header ul{
 	float: right;
 	margin-top: 20px;
 	padding-right: 20px;
 }
-.main header ul li{
+header ul li{
 	float: left;
 	font-size: 12px;
 	
 }
-.main header ul li a{
+header ul li a{
 	display: block;
 	text-decoration: none;
 	color: #fff;
 	width: 80px;
 }
-.main header ul li a:hover{
+header ul li a:hover{
 	color:#ACACAC;
 }
 /*文章块*/
-.main article{
+article{
 	background: #fff;
 	width: 93%;
 	margin:0 auto;
@@ -63,83 +58,83 @@ h1,h2,h4,h5{
 	clear: both;
 
 }
-.main article h4,h5{
+article h4,h5{
 	color:#676B6E;
 }
-.main article h5{
+article h5{
 	margin-top: 6px;
 	font-weight: normal;
 }
-.main article p{
+article p{
 	font-size: 14px;
 	text-indent: 2em;
 }
 /*图片*/
-.main article figure{
+article figure{
 	width: 120px;
 	height: 126px;
 	border: 1px solid #CDCDCD;
 }
-.main article figure img{
+article figure img{
 	border:0;
 	display: block;
 	width: 100px;
 	height: 80px;
 	margin:0px auto;
 }
-.main article figcaption{
+article figcaption{
 	text-align: center;
 	line-height: 30px;
 }
 /*表格*/
-.main article table{
+article table{
 	width: 100%;
 	border-spacing: 0;
 	border-collapse: collapse;
 	text-align: left;
 }
-.main article table,table th,table td{
+article table,table th,table td{
 	border:1px solid #ccc;
 	line-height: 26px;
 	padding-left: 4px;
 
 }
-.main article table th{
+article table th{
 	background: #333;
 	color: #fff;
 }
-.main article table tfoot{
+article table tfoot{
 	background: #ccc;
 	font-weight: bold;
 }
 /*表单*/
-.main article aside {
+article aside {
 	margin-bottom: 0px;
 }
-.main article aside  h4{
+article aside  h4{
 	color:#000;
 
 }
-.main article aside  form{
+article aside  form{
 	width: 1174px;
 	font-size: 12px;
 }
-.main article aside form fieldset{
+article aside form fieldset{
 	width: 1174px;
 	margin-left: 200px;
 	border: 0;
 }
-.main article aside form p{
+article aside form p{
 	
 }
-.main article aside form p span{
+article aside form p span{
 	display: inline-block;
 	width: 130px;
 	text-align: right;	
 	margin-right: 8px;
 	vertical-align: top;
 }
-.main article aside form p small{
+article aside form p small{
 	color: #666;
 	display: block;
 	font-size: 12px;
@@ -147,10 +142,10 @@ h1,h2,h4,h5{
 	margin-left: 155px;
 
 }
-.main article aside form textarea{
+article aside form textarea{
 	width: 765px;
 }
-.main article aside form button{
+article aside form button{
 	background: #3355D0;
 	color: #fff;
 	font-weight: bold;
