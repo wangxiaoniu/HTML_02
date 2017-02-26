@@ -116,12 +116,12 @@ article aside  h4{
 
 }
 article aside  form{
-	width: 1174px;
+	width: 100%;
 	font-size: 12px;
 }
 article aside form fieldset{
-	width: 1174px;
-	margin-left: 200px;
+	width: 90%;
+	margin-left: 10%;
 	border: 0;
 }
 article aside form p{
@@ -129,7 +129,7 @@ article aside form p{
 }
 article aside form p span{
 	display: inline-block;
-	width: 130px;
+	width: 20%;
 	text-align: right;	
 	margin-right: 8px;
 	vertical-align: top;
@@ -139,11 +139,11 @@ article aside form p small{
 	display: block;
 	font-size: 12px;
 	line-height: 34px;
-	margin-left: 155px;
+	margin-left: 22%;
 
 }
 article aside form textarea{
-	width: 765px;
+	width: 50%;
 }
 article aside form button{
 	background: #3355D0;
